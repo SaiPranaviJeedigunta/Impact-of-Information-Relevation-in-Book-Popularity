@@ -8,16 +8,6 @@ medians, maximum and minimum values, skewness, kurtosis, and other statistical
 properties. These metrics were pivotal in understanding how narrative complexity and
 structure impact reader engagement and subsequent download metrics.
 
-Regression analyses were pivotal in evaluating the relationship between these
-comprehensive KLD metrics and log(downloads), integrating controls like sentiment
-analysis, word count, and narrative speed. Notably, genre-specific investigations revealed
-distinctive patterns: adventure and fantasy genres showed higher responsiveness to
-narrative variance and sentiment factors, while romance and mystery genres exhibited
-stronger correlations with specific KLD slopes and median values. The application of LASSO
-regression further pinpointed critical variables independently predictive of log(downloads),
-underscoring the pivotal role of narrative intricacy and thematic engagement in shaping
-digital literary consumption preferences.
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Datasets](#datasets)
