@@ -1,6 +1,22 @@
 # Analyzing Information Revelation in Popular Books
 
-This repository contains the analysis performed for the Graduate DATA Research Assistant (Fall) position at Northeastern University's Digital, Analytics, Technology, and Automation (DATA) Initiative. The objective is to investigate the role of information revelation in the popularity of English-language fiction books using metadata and Kullback-Leibler (KLD) divergence scores from Project Gutenberg.
+This study delves into how the intricacies of information revelation, as quantified by
+Kullback-Liebler divergence (KLD), influence the popularity of English-language fiction books
+from Project Gutenberg. Initially, the study derived nuanced book-level KLD metrics,
+including averages, variances, slopes of linear regressions across narrative segments,
+medians, maximum and minimum values, skewness, kurtosis, and other statistical
+properties. These metrics were pivotal in understanding how narrative complexity and
+structure impact reader engagement and subsequent download metrics.
+
+Regression analyses were pivotal in evaluating the relationship between these
+comprehensive KLD metrics and log(downloads), integrating controls like sentiment
+analysis, word count, and narrative speed. Notably, genre-specific investigations revealed
+distinctive patterns: adventure and fantasy genres showed higher responsiveness to
+narrative variance and sentiment factors, while romance and mystery genres exhibited
+stronger correlations with specific KLD slopes and median values. The application of LASSO
+regression further pinpointed critical variables independently predictive of log(downloads),
+underscoring the pivotal role of narrative intricacy and thematic engagement in shaping
+digital literary consumption preferences.
 
 ## Table of Contents
 1. [Introduction](#introduction)
