@@ -1,4 +1,4 @@
-# Analyzing the Role of Information Revelation in Popular Books
+# 📚 Analyzing the Role of Information Revelation in Popular Books
 
 This study delves into how the intricacies of information revelation, as quantified by
 Kullback-Liebler divergence (KLD), influence the popularity of English-language fiction books
